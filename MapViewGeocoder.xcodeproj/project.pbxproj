@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		F523DD1427D34C55002F7F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1327D34C55002F7F6B /* AppDelegate.swift */; };
 		F523DD1627D34C55002F7F6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1527D34C55002F7F6B /* SceneDelegate.swift */; };
-		F523DD1827D34C55002F7F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1727D34C55002F7F6B /* ViewController.swift */; };
-		F523DD1B27D34C55002F7F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1927D34C55002F7F6B /* Main.storyboard */; };
 		F523DD1D27D34C57002F7F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1C27D34C57002F7F6B /* Assets.xcassets */; };
 		F523DD2027D34C57002F7F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */; };
 		F523DD2B27D34C57002F7F6B /* MapViewGeocoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD2A27D34C57002F7F6B /* MapViewGeocoderTests.swift */; };
 		F523DD3527D34C57002F7F6B /* MapViewGeocoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */; };
 		F523DD3727D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */; };
+		F523DD4427D34C9D002F7F6B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD4327D34C9D002F7F6B /* MainViewController.swift */; };
+		F523DD4627D34CA2002F7F6B /* LookupAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD4527D34CA2002F7F6B /* LookupAddressViewController.swift */; };
+		F523DD4827D34CA9002F7F6B /* ViewControllerRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD4727D34CA9002F7F6B /* ViewControllerRobot.swift */; };
+		F523DD4A27D34CAF002F7F6B /* LookupAddressRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD4927D34CAF002F7F6B /* LookupAddressRobot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		F523DD1027D34C55002F7F6B /* MapViewGeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewGeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F523DD1327D34C55002F7F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F523DD1527D34C55002F7F6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F523DD1727D34C55002F7F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F523DD1A27D34C55002F7F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F523DD1C27D34C57002F7F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F523DD1F27D34C57002F7F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F523DD2127D34C57002F7F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		F523DD3027D34C57002F7F6B /* MapViewGeocoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewGeocoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewGeocoderUITests.swift; sourceTree = "<group>"; };
 		F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewGeocoderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F523DD4327D34C9D002F7F6B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F523DD4527D34CA2002F7F6B /* LookupAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookupAddressViewController.swift; sourceTree = "<group>"; };
+		F523DD4727D34CA9002F7F6B /* ViewControllerRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRobot.swift; sourceTree = "<group>"; };
+		F523DD4927D34CAF002F7F6B /* LookupAddressRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookupAddressRobot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,8 @@
 			children = (
 				F523DD1327D34C55002F7F6B /* AppDelegate.swift */,
 				F523DD1527D34C55002F7F6B /* SceneDelegate.swift */,
-				F523DD1727D34C55002F7F6B /* ViewController.swift */,
-				F523DD1927D34C55002F7F6B /* Main.storyboard */,
+				F523DD4327D34C9D002F7F6B /* MainViewController.swift */,
+				F523DD4527D34CA2002F7F6B /* LookupAddressViewController.swift */,
 				F523DD1C27D34C57002F7F6B /* Assets.xcassets */,
 				F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */,
 				F523DD2127D34C57002F7F6B /* Info.plist */,
@@ -121,6 +125,8 @@
 		F523DD3327D34C57002F7F6B /* MapViewGeocoderUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F523DD4727D34CA9002F7F6B /* ViewControllerRobot.swift */,
+				F523DD4927D34CAF002F7F6B /* LookupAddressRobot.swift */,
 				F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */,
 				F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */,
 			);
@@ -233,7 +239,6 @@
 			files = (
 				F523DD2027D34C57002F7F6B /* LaunchScreen.storyboard in Resources */,
 				F523DD1D27D34C57002F7F6B /* Assets.xcassets in Resources */,
-				F523DD1B27D34C55002F7F6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F523DD1827D34C55002F7F6B /* ViewController.swift in Sources */,
+				F523DD4427D34C9D002F7F6B /* MainViewController.swift in Sources */,
+				F523DD4627D34CA2002F7F6B /* LookupAddressViewController.swift in Sources */,
 				F523DD1427D34C55002F7F6B /* AppDelegate.swift in Sources */,
 				F523DD1627D34C55002F7F6B /* SceneDelegate.swift in Sources */,
 			);
@@ -276,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F523DD4827D34CA9002F7F6B /* ViewControllerRobot.swift in Sources */,
+				F523DD4A27D34CAF002F7F6B /* LookupAddressRobot.swift in Sources */,
 				F523DD3727D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift in Sources */,
 				F523DD3527D34C57002F7F6B /* MapViewGeocoderUITests.swift in Sources */,
 			);
@@ -297,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F523DD1927D34C55002F7F6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F523DD1A27D34C55002F7F6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +444,6 @@
 				INFOPLIST_FILE = MapViewGeocoder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +471,6 @@
 				INFOPLIST_FILE = MapViewGeocoder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

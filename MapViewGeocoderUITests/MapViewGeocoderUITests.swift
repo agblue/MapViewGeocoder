@@ -12,6 +12,9 @@ class MapViewGeocoderUITests: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
+        let app = XCUIApplication()
+        app.launch()
+        
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
 
@@ -38,5 +41,25 @@ class MapViewGeocoderUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+    }
+    
+    func testMainViewButtons() {
+        ViewControllerRobot()
+            .verifyOnMainView()
+            .verifyFollowMode(is: true)
+            .tapFollowButton()
+            .verifyFollowMode(is: false)
+            .tapFollowButton()
+            .verifyFollowMode(is: true)
+            .tapZoomInButton()
+            .tapZoomOutButton()
+            .tapSearchButton()
+            .verifyOnLookUpAddressView()
+            .searchFor("Lake")
+            .verifySearchResults(exists: true)
+            .tapOnFirstResult()
+            .dismissView()
+            .verifyOnMainView()
+        
     }
 }
