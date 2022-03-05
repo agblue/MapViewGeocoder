@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F523DD1427D34C55002F7F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1327D34C55002F7F6B /* AppDelegate.swift */; };
+		F523DD1627D34C55002F7F6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1527D34C55002F7F6B /* SceneDelegate.swift */; };
+		F523DD1827D34C55002F7F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD1727D34C55002F7F6B /* ViewController.swift */; };
+		F523DD1B27D34C55002F7F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1927D34C55002F7F6B /* Main.storyboard */; };
+		F523DD1D27D34C57002F7F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1C27D34C57002F7F6B /* Assets.xcassets */; };
+		F523DD2027D34C57002F7F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */; };
+		F523DD2B27D34C57002F7F6B /* MapViewGeocoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD2A27D34C57002F7F6B /* MapViewGeocoderTests.swift */; };
+		F523DD3527D34C57002F7F6B /* MapViewGeocoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */; };
+		F523DD3727D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F523DD2727D34C57002F7F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F523DD0827D34C55002F7F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F523DD0F27D34C55002F7F6B;
+			remoteInfo = MapViewGeocoder;
+		};
+		F523DD3127D34C57002F7F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F523DD0827D34C55002F7F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F523DD0F27D34C55002F7F6B;
+			remoteInfo = MapViewGeocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F523DD1027D34C55002F7F6B /* MapViewGeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewGeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523DD1327D34C55002F7F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F523DD1527D34C55002F7F6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F523DD1727D34C55002F7F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F523DD1A27D34C55002F7F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F523DD1C27D34C57002F7F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F523DD1F27D34C57002F7F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F523DD2127D34C57002F7F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F523DD2627D34C57002F7F6B /* MapViewGeocoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewGeocoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523DD2A27D34C57002F7F6B /* MapViewGeocoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewGeocoderTests.swift; sourceTree = "<group>"; };
+		F523DD3027D34C57002F7F6B /* MapViewGeocoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewGeocoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewGeocoderUITests.swift; sourceTree = "<group>"; };
+		F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewGeocoderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F523DD0D27D34C55002F7F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2327D34C57002F7F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2D27D34C57002F7F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F523DD0727D34C55002F7F6B = {
+			isa = PBXGroup;
+			children = (
+				F523DD1227D34C55002F7F6B /* MapViewGeocoder */,
+				F523DD2927D34C57002F7F6B /* MapViewGeocoderTests */,
+				F523DD3327D34C57002F7F6B /* MapViewGeocoderUITests */,
+				F523DD1127D34C55002F7F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F523DD1127D34C55002F7F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F523DD1027D34C55002F7F6B /* MapViewGeocoder.app */,
+				F523DD2627D34C57002F7F6B /* MapViewGeocoderTests.xctest */,
+				F523DD3027D34C57002F7F6B /* MapViewGeocoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F523DD1227D34C55002F7F6B /* MapViewGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				F523DD1327D34C55002F7F6B /* AppDelegate.swift */,
+				F523DD1527D34C55002F7F6B /* SceneDelegate.swift */,
+				F523DD1727D34C55002F7F6B /* ViewController.swift */,
+				F523DD1927D34C55002F7F6B /* Main.storyboard */,
+				F523DD1C27D34C57002F7F6B /* Assets.xcassets */,
+				F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */,
+				F523DD2127D34C57002F7F6B /* Info.plist */,
+			);
+			path = MapViewGeocoder;
+			sourceTree = "<group>";
+		};
+		F523DD2927D34C57002F7F6B /* MapViewGeocoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F523DD2A27D34C57002F7F6B /* MapViewGeocoderTests.swift */,
+			);
+			path = MapViewGeocoderTests;
+			sourceTree = "<group>";
+		};
+		F523DD3327D34C57002F7F6B /* MapViewGeocoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F523DD3427D34C57002F7F6B /* MapViewGeocoderUITests.swift */,
+				F523DD3627D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift */,
+			);
+			path = MapViewGeocoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F523DD0F27D34C55002F7F6B /* MapViewGeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523DD3A27D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoder" */;
+			buildPhases = (
+				F523DD0C27D34C55002F7F6B /* Sources */,
+				F523DD0D27D34C55002F7F6B /* Frameworks */,
+				F523DD0E27D34C55002F7F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewGeocoder;
+			productName = MapViewGeocoder;
+			productReference = F523DD1027D34C55002F7F6B /* MapViewGeocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F523DD2527D34C57002F7F6B /* MapViewGeocoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523DD3D27D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoderTests" */;
+			buildPhases = (
+				F523DD2227D34C57002F7F6B /* Sources */,
+				F523DD2327D34C57002F7F6B /* Frameworks */,
+				F523DD2427D34C57002F7F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F523DD2827D34C57002F7F6B /* PBXTargetDependency */,
+			);
+			name = MapViewGeocoderTests;
+			productName = MapViewGeocoderTests;
+			productReference = F523DD2627D34C57002F7F6B /* MapViewGeocoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F523DD2F27D34C57002F7F6B /* MapViewGeocoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523DD4027D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoderUITests" */;
+			buildPhases = (
+				F523DD2C27D34C57002F7F6B /* Sources */,
+				F523DD2D27D34C57002F7F6B /* Frameworks */,
+				F523DD2E27D34C57002F7F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F523DD3227D34C57002F7F6B /* PBXTargetDependency */,
+			);
+			name = MapViewGeocoderUITests;
+			productName = MapViewGeocoderUITests;
+			productReference = F523DD3027D34C57002F7F6B /* MapViewGeocoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F523DD0827D34C55002F7F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F523DD0F27D34C55002F7F6B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F523DD2527D34C57002F7F6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F523DD0F27D34C55002F7F6B;
+					};
+					F523DD2F27D34C57002F7F6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F523DD0F27D34C55002F7F6B;
+					};
+				};
+			};
+			buildConfigurationList = F523DD0B27D34C55002F7F6B /* Build configuration list for PBXProject "MapViewGeocoder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F523DD0727D34C55002F7F6B;
+			productRefGroup = F523DD1127D34C55002F7F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F523DD0F27D34C55002F7F6B /* MapViewGeocoder */,
+				F523DD2527D34C57002F7F6B /* MapViewGeocoderTests */,
+				F523DD2F27D34C57002F7F6B /* MapViewGeocoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F523DD0E27D34C55002F7F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523DD2027D34C57002F7F6B /* LaunchScreen.storyboard in Resources */,
+				F523DD1D27D34C57002F7F6B /* Assets.xcassets in Resources */,
+				F523DD1B27D34C55002F7F6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2427D34C57002F7F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2E27D34C57002F7F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F523DD0C27D34C55002F7F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523DD1827D34C55002F7F6B /* ViewController.swift in Sources */,
+				F523DD1427D34C55002F7F6B /* AppDelegate.swift in Sources */,
+				F523DD1627D34C55002F7F6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2227D34C57002F7F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523DD2B27D34C57002F7F6B /* MapViewGeocoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523DD2C27D34C57002F7F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523DD3727D34C57002F7F6B /* MapViewGeocoderUITestsLaunchTests.swift in Sources */,
+				F523DD3527D34C57002F7F6B /* MapViewGeocoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F523DD2827D34C57002F7F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F523DD0F27D34C55002F7F6B /* MapViewGeocoder */;
+			targetProxy = F523DD2727D34C57002F7F6B /* PBXContainerItemProxy */;
+		};
+		F523DD3227D34C57002F7F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F523DD0F27D34C55002F7F6B /* MapViewGeocoder */;
+			targetProxy = F523DD3127D34C57002F7F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F523DD1927D34C55002F7F6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F523DD1A27D34C55002F7F6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F523DD1E27D34C57002F7F6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F523DD1F27D34C57002F7F6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F523DD3827D34C57002F7F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F523DD3927D34C57002F7F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F523DD3B27D34C57002F7F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapViewGeocoder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F523DD3C27D34C57002F7F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapViewGeocoder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F523DD3E27D34C57002F7F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewGeocoder.app/MapViewGeocoder";
+			};
+			name = Debug;
+		};
+		F523DD3F27D34C57002F7F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewGeocoder.app/MapViewGeocoder";
+			};
+			name = Release;
+		};
+		F523DD4127D34C57002F7F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapViewGeocoder;
+			};
+			name = Debug;
+		};
+		F523DD4227D34C57002F7F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY3CD6QTY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannytsang.MapViewGeocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapViewGeocoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F523DD0B27D34C55002F7F6B /* Build configuration list for PBXProject "MapViewGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523DD3827D34C57002F7F6B /* Debug */,
+				F523DD3927D34C57002F7F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523DD3A27D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523DD3B27D34C57002F7F6B /* Debug */,
+				F523DD3C27D34C57002F7F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523DD3D27D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523DD3E27D34C57002F7F6B /* Debug */,
+				F523DD3F27D34C57002F7F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523DD4027D34C57002F7F6B /* Build configuration list for PBXNativeTarget "MapViewGeocoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523DD4127D34C57002F7F6B /* Debug */,
+				F523DD4227D34C57002F7F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F523DD0827D34C55002F7F6B /* Project object */;
+}
