@@ -7,21 +7,21 @@
 
 import XCTest
 
-class ViewControllerRobot {
+class MainViewControllerRobot {
 
-    func tapFollowButton() -> ViewControllerRobot {
+    func tapFollowButton() -> MainViewControllerRobot {
         let followButton = XCUIApplication().buttons["ViewController.FollowButton"]
         followButton.tap()
         return self
     }
     
-    func tapZoomInButton() -> ViewControllerRobot {
+    func tapZoomInButton() -> MainViewControllerRobot {
         let zoomInButton = XCUIApplication().buttons["ViewController.ZoomInButton"]
         zoomInButton.tap()
         return self
     }
 
-    func tapZoomOutButton() -> ViewControllerRobot {
+    func tapZoomOutButton() -> MainViewControllerRobot {
         let zoomOutButton = XCUIApplication().buttons["ViewController.ZoomOutButton"]
         zoomOutButton.tap()
         return self
@@ -34,13 +34,13 @@ class ViewControllerRobot {
         return LookUpAddressRobot()
     }
     
-    func verifyOnMainView() -> ViewControllerRobot {
+    func verifyOnMainView() -> MainViewControllerRobot {
         let navBar = XCUIApplication().navigationBars["Main View"]
         XCTAssert(navBar.exists)
         return self
     }
     
-    func verifyFollowMode(is mode: Bool) -> ViewControllerRobot {
+    func verifyFollowMode(is mode: Bool) -> MainViewControllerRobot {
         let followButton = XCUIApplication().buttons["ViewController.FollowButton"]
         
         if mode == true {

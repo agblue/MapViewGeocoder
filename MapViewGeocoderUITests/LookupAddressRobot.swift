@@ -37,13 +37,13 @@ class LookUpAddressRobot {
         return self
     }
     
-    func dismissView() -> ViewControllerRobot {
+    func dismissView() -> MainViewControllerRobot {
         let closeButton = XCUIApplication().buttons["LookUpAddressView.CloseButton"]
         closeButton.tap()
         
         let navBar = XCUIApplication().navigationBars["Lookup Address"]
         XCTAssertFalse(navBar.exists)
         
-        return ViewControllerRobot()
+        return MainViewControllerRobot()
     }
 }

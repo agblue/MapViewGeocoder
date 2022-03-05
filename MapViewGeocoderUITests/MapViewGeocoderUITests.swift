@@ -44,7 +44,7 @@ class MapViewGeocoderUITests: XCTestCase {
     }
     
     func testMainViewButtons() {
-        ViewControllerRobot()
+        MainViewControllerRobot()
             .verifyOnMainView()
             .verifyFollowMode(is: true)
             .tapFollowButton()
